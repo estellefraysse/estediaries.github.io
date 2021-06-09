@@ -1,0 +1,50 @@
+
+h1{
+	color: black; 
+	font-size: 32px;
+	background: hotpink;
+	font-family: times new roman;
+	text-align: center;
+}
+
+h2{
+	color: black; 
+	font-size: 32px;
+	background: hotpink;
+	font-family: cursive;
+	text-align: center;
+}
+
+h3{
+	font-size:28px;
+	background: hotpink;
+	font-family: arial;
+
+}
+h4, h5{
+	font-size: 28px;
+	background: hotpink;
+	font-family: cursive;
+	text-align: left;
+}
+
+ul, ol{
+	font-size: 13px;
+	background: hotpink;
+	font-family: arial;
+	text-align: left;
+
+}
+
+img {
+	width: 450px;
+	height: 400px;
+	object-fit: cover;
+}
+
+body{
+	background: hotpink;
+	font-size: times new roman;
+	text-align: center;
+}
+

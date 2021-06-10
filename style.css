@@ -2,38 +2,56 @@
 h1{
 	color: black; 
 	font-size: 32px;
-	background: hotpink;
+	background: deeppink;
 	font-family: times new roman;
 	text-align: center;
 }
 
+.avatar{
+	border-radius: 60%;
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border: 80px black;
+	box-shadow: 20px 20px 10px darkslategrey;
+	}
+
 h2{
 	color: black; 
 	font-size: 32px;
-	background: hotpink;
+	background: deeppink;
 	font-family: cursive;
 	text-align: center;
 }
+br{
+	text-align: center;
+}
+ div{
+ 	color: black;
+ 	background: White;
+ }
 
 h3{
 	font-size:28px;
-	background: hotpink;
+	background: deeppink;
 	font-family: arial;
-
 }
+
 h4, h5{
 	font-size: 28px;
-	background: hotpink;
+	background: deeppink;
 	font-family: cursive;
 	text-align: left;
 }
 
+h6{
+font-size: 13px;
+}
 ul, ol{
 	font-size: 13px;
-	background: hotpink;
+	background: deeppink;
 	font-family: arial;
 	text-align: left;
-
 }
 
 img {
@@ -43,8 +61,76 @@ img {
 }
 
 body{
-	background: hotpink;
+	background: deeppink;
 	font-size: times new roman;
 	text-align: center;
 }
 
+.btn-pink {
+	display: inline-block;
+  color: black;
+  background: deeppink;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.frame {
+	border: 2px solid black;
+	margin: 60px auto;
+	padding: 30px;
+	width: 300px;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 30px;
+  width: 30%;
+  background: white;
+}
+
+.line-medium {
+  height: 30px;
+  width: 40%;
+  background: darkgoldenrod;
+}
+
+.line-hard {
+  height: 30px;
+  width: 30%;
+  background: white;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 40px;
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
